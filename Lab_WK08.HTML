@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Week 2 Lab</title>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="week2.js"></script>
+
+</head>
+
+<body>
+
+<div id="form"> <!-- div with id of form containing the elements for the form -->
+	
+    <form name="info">
+    <p id = "firstColor">
+    First Name <br />
+    <input type="text" id="firstName"/> <!-- First name field textbox --> <span id="fn_Error" style="color:red";></span>
+    </p>
+    
+    <p id = "lastColor">
+   	Last Name <br />
+    <input type="text" id="lastName"/> <span id="ln_Error" style="color:red";> <!-- blank span, used for error --> </span>
+    </p>
+    
+     <p id = "eColor">
+   	Email <br />
+    <input type="text" id="email"/> <span id="email_Error" style="color:red";> </span>
+    </p>
+    
+     <p id = "phoColor">
+   	Phone Number <br />
+    <input type="text" id="phone"/> <span id="phone_Error" style="color:red";></span>
+    </p>
+    
+    <input type="button"  id="button1" value="submit" onclick="" />
+    
+    
+    </form> <!-- the button -->
+
+</div>
+
+<div id="confirmation"> <!-- div used for confirmation -->
+	<h1>Confirmation</h1>
+    <p id="info">
+    </p>
+    <input type="button" id = "clear_Button" value="Clear Local Storage" onclick="" />
+</div>
+
+</body>
+</html>
